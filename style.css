@@ -616,7 +616,7 @@ ul li {
 }
 
 .global-network p {
-  width: 555px;
+  width: 100%;
   height: 60px;
 
   /* font-family: Rubik; */
