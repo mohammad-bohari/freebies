@@ -194,7 +194,7 @@ ul li {
 }
 .illustration-img {
   filter: drop-shadow(0px 3px 3px #f53855);
-  animation: drop 1.5s ease;
+  /* animation: drop 1.5s ease; */
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -225,6 +225,13 @@ ul li {
   }
   .illustration-img img {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .illustration h1 {
+    line-height: 40px;
+    font-size: 30px;
   }
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -533,8 +540,7 @@ ul li {
   .plan-three {
     width: 30%;
   }
-  .plans ul {
-  }
+
   .plans ul li {
     font-size: 1.5em;
     line-height: 50px;
@@ -842,6 +848,38 @@ ul li {
     right: 45%;
   }
 }
+@media all and (max-width: 450px) {
+  .customer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cust-one,
+  .cust-two,
+  .cust-three {
+    width: 100%;
+    border: 2px solid rgb(185, 185, 185);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+  }
+  .cust-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cust-content p {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .arrow .left-arrow {
+    right: 53%;
+  }
+  .arrow .right-arrow {
+    right: 45%;
+  }
+}
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
@@ -1089,6 +1127,13 @@ ul li {
     font-size: 0.9em;
   }
 }
+
+@media all and (max-width: 500px) {
+  .second ul li h1 {
+    line-height: 15px;
+  }
+}
+
 @media all and (max-width: 865px) {
   .footer-content {
     display: flex;
